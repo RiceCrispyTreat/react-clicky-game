@@ -1,15 +1,15 @@
 import React from "react";
 import "./imageListing.css";
-import imageBlock from "../imageBlock";
+import ImageBlock from "../imageBlock";
 
-const imageListing = (props) => (
+const ImageListing = (props) => (
 	<div className="container">
 		<div className="row">
-	    {props.imageFileNames.map((imageFileName, index) => {
-	      return <imageBlock key={index} imageFileName={imageFileName} alt={imageFileName} clickHandler={props.clickHandler} gameStatus={props.gameStatus} />
+	    {props.ImageNames.map((ImageName, index) => {
+	      return <ImageBlock key={index} imageFileName={ImageName} alt={ImageName} clickHandler={props.clickHandler} gameStatus={props.gameStatus} />
 	    })}
 	  </div>
   </div>
 );
 
-export default imageListing;
+export default ImageListing;

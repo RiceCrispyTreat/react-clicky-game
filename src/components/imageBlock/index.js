@@ -1,1 +1,1 @@
-export { default } from "./ImageBlock";
+export { default } from "./imageBlock";
