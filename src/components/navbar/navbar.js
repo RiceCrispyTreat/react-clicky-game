@@ -11,6 +11,8 @@ const Navbar = props => (
           <h3>{props.feedback}</h3>
         </div>
         <div className="col-md-4 text-muted">
+          
+    
           <h3>Score: {props.score} | Top Score: {props.topScore}</h3>
         </div>
       </div>
