@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+***This is a memory image game built using React. The Goal is to click on an image only once. Everytime you click on an image the set of Images will shuffle. If you click on the same image more than once you will lose the game.*** 
+
+***Good luck!***
+
+
 ## Available Scripts
 
 In the project directory, you can run:
